@@ -4,7 +4,7 @@
 using namespace std;
 
 template<class T>
-void merge(std::vector<T>& v, int p, int q, int r)
+void merge(vector<T>& v, int p, int q, int r)
 {
 	int size1 = q - p + 1;
 	int size2 = r - q;
@@ -49,7 +49,7 @@ void merge(std::vector<T>& v, int p, int q, int r)
 }
 
 template<class T>
-void merge_sort(std::vector<T>& v, int p, int r)
+void merge_sort(vector<T>& v, int p, int r)
 {
 	if (p < r)
 	{
